@@ -20,7 +20,7 @@ class Galaxy:
 
     def compare_by_distance(self, other):
         if self.MegaLightYears > other.MegaLightYears:
-            return 1
+            return -1       #1 replaced by -1
         elif self.MegaLightYears < other.MegaLightYears:
             return 1
         else:
