@@ -1,13 +1,13 @@
 from galaxy import Galaxy, GType
 from functools import cmp_to_key
-
+import math
 
 def create_galaxies():
     return [
         Galaxy(Name="Cartwheel", MegaLightYears=25.2, GalaxyType=GType('L')),
         Galaxy(Name="Tadpole", MegaLightYears=40.25, GalaxyType=GType('S')),
         Galaxy(Name="Pinwheel", MegaLightYears=15.358, GalaxyType=GType('S')),
-        Galaxy(Name="Small Magellanic Cloud", MegaLightYears=0.2, GalaxyType=GType('l')),
+        Galaxy(Name="Small Magellanic Cloud", MegaLightYears=0.2, GalaxyType=GType('L')), #l replaced by L
         Galaxy(Name="Andromeda", MegaLightYears=3, GalaxyType=GType('S')),
         Galaxy(Name="Maffei 1", MegaLightYears=11, GalaxyType=GType('E')),
     ]
@@ -33,7 +33,7 @@ def count_galaxies(galaxies):
 
 def find_galaxy_by_distance(galaxies, target_distance):
     for galaxy in galaxies:
-        if galaxy.MegaLightYears == target_distance:
+        if math.isclose(galaxy.MegaLightYears, target_distance):    #n'est pas arrondi a exactment 0.2
             return galaxy
     return None
 
@@ -61,7 +61,7 @@ def main():
     # plus proche que Cartwheel et les afficher
 
     cartwheel = find_galaxy_by_distance(theGalaxies, 25.2)
-    target = cartwheel.MegaLightYears - 25
+    target = cartwheel.MegaLightYears - 25     
     search_and_display_galaxy(theGalaxies, target)
     
 
