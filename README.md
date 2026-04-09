@@ -3,7 +3,7 @@
 + The second exercice is to find the problems in main.py and galaxy.py without using print() or brain
 ## Basic git
 1. Open a folder on your computer
-2. Open VScode with this folder and put <code>git clone <github repository link></code>\n
+2. Open VScode with this folder and put <code>git clone <github repository link></code><br>
 * <code>git branch <branch name></code> (create a git branch, <code>git branch</code> to see all branches)\n
 * <code>git pull</code> (take the last push, by default main)
 3. <code>git add <file name></code> or the + on VScode (<code>git status</code> to see all selected files 
