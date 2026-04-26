@@ -8,7 +8,7 @@
       usage: create a branch for adding a feature then create a pull request to main then delete it and create a new one for another feature,<br>
       this way your every branch you create is updated
       Update branch: use <code>git rebase \<branch name></code>
-      ![delete commits on the branch one by one, update main branch, reconstruct you branch commits one by one (you can modify a commit during the process if necessary)]()
+      ![delete commits on the branch one by one, update main branch, reconstruct you branch commits one by one (you can modify a commit during the process if necessary)](https://github.com/FlorianJUR/AdvancedPython2BA-Labo1/blob/3eb73bc44d4aa0097ce75c4b5515e8005fd2e2ac/Git_rebase_image.png)
 
 4. <code>git add \<file name></code> or the + on VScode (<code>git status</code> to see all selected files) 
 5. <code>git commit -m \<message></code> or commit button on VScode<br>
