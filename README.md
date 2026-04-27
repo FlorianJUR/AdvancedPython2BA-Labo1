@@ -6,9 +6,9 @@
 2. Open VScode with this folder and put <code>git clone \<github repository link></code><br>
    2.1. <code>git branch \<branch name></code> (create a git branch, <code>git branch</code> to see all branches)<br>
       usage: create a branch for adding a feature then create a pull request to main then delete it and create a new one for another feature,<br>
-      this way your every branch you create is updated
+      this way your every branch you create is updated<br>
       Update branch: use <code>git rebase \<branch name></code>
-      ![](https://github.com/FlorianJUR/AdvancedPython2BA-Labo1/blob/2435d8e3a56aaa71194332bc6403e8f8b0246954/Capture%20d'%C3%A9cran%202026-04-26%20182132.png)
+      <img src="https://github.com/FlorianJUR/AdvancedPython2BA-Labo1/blob/2435d8e3a56aaa71194332bc6403e8f8b0246954/Capture%20d'%C3%A9cran%202026-04-26%20182132.png" width="300" height="200" />
       delete commits on the branch one by one, update main branch, reconstruct you branch commits one by one (you can modify a commit during the process if necessary)
 4. <code>git add \<file name></code> or the + on VScode (<code>git status</code> to see all selected files) 
 5. <code>git commit -m \<message></code> or commit button on VScode<br>
