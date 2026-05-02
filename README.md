@@ -14,6 +14,6 @@
 4. <code>git add \<file name></code> or the + on VScode (<code>git status</code> to see all selected files) 
 5. <code>git commit -m \<message></code> or commit button on VScode<br>
    4.1. <code>git checkout main</code> (we go on main)<br>
-   4.2. <code>git merge \<branch name></code> (update main with branche info, you should never commit and push directly on main)
+   4.2. <code>git merge --no-ff\<branch name></code> (update main with branche info, you should never commit and push directly on main --no-ff : no fast forward)
 6. <code>git push origin \<branch name></code> (everyone can see and modify, it is now on Github)
 7. <code>git pull</code> (take the last push, by default main)
