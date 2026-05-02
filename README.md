@@ -5,7 +5,7 @@
 1. Open a folder on your computer
 2. Open VScode with this folder and put <code>git clone \<github repository link></code><br>
    2.1. <code>git branch \<branch name></code> (create a git branch, <code>git branch</code> to see all branches)<br>
-      usage: create a branch for adding a feature
+      usage: create a branch for adding a feature <br>
    2.2. <code>git push origin </code> to not stay a local branch <br>
       then create a pull request to main then delete it and create a new one for another feature,this way your every branch you create is updated<br>
       Update branch: use <code>git rebase \<branch name></code><br>
